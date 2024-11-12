@@ -1,4 +1,4 @@
-import tkinter as tk
+п»їimport tkinter as tk
 import random
 
 # Initialize scores
@@ -88,7 +88,7 @@ footer_frame = tk.Frame(root, bg="#e5e4e2", width=400, height=30)
 footer_frame.pack_propagate(False)  # Prevent the frame from resizing to fit its content
 footer_frame.pack(side=tk.BOTTOM, fill=tk.X)
 
-footer_label = tk.Label(footer_frame, text="Вдъхновение за бизнес и жажда за знания!", font=("Arial", 10, "italic"), bg="#e5e4e2", fg="#33334d")
+footer_label = tk.Label(footer_frame, text="Р’РґСЉС…РЅРѕРІРµРЅРёРµ Р·Р° Р±РёР·РЅРµСЃ Рё Р¶Р°Р¶РґР° Р·Р° Р·РЅР°РЅРёСЏ!", font=("Arial", 10, "italic"), bg="#e5e4e2", fg="#33334d")
 footer_label.pack()
 
 # Run the application
