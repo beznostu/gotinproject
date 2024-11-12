@@ -10,7 +10,7 @@ def determine_winner(user_choice):
     global user_score, ai_score
     choices = ['Rock', 'Paper', 'Scissors']
     ai_choice = random.choice(choices)
-    
+   
     if user_choice == ai_choice:
         result = "It's a tie!"
     elif (user_choice == 'Rock' and ai_choice == 'Scissors') or \
@@ -91,5 +91,5 @@ footer_frame.pack(side=tk.BOTTOM, fill=tk.X)
 footer_label = tk.Label(footer_frame, text="Вдъхновение за бизнес и жажда за знания!", font=("Arial", 10, "italic"), bg="#e5e4e2", fg="#33334d")
 footer_label.pack()
 
-# Run the application
+# Runs the application
 root.mainloop()
